@@ -4,3 +4,10 @@ skip_string_normalization = true
 
 [tool.flake8]
 max-line-length = 88
+extend-ignore = E203
+
+[tool.mypy]
+strict = true
+
+[tool.isort]
+profile = "black"
