@@ -1,6 +1,6 @@
 # {{ml-boilerplate}}
 
-{{ml-boilerplate.description}}
+# {{ml-boilerplate.description}}
 
 ## Project Organization
 
@@ -73,3 +73,10 @@
 
 --------
 
+# Dataset
+
+# Installation
+
+# Setup
+
+# Contributors
