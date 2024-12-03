@@ -1,13 +1,16 @@
 [tool.black]
 line_length = 88
-skip_string_normalization = true
+skip_string_normalization = false
 
 [tool.flake8]
 max-line-length = 88
-extend-ignore = E203
 
 [tool.mypy]
+ignore_missing_imports = true
 strict = true
+check_untyped_defs = true
+warn_return_any = true
+warn_unused_configs = true
 
 [tool.isort]
 profile = "black"
